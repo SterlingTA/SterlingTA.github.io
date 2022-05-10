@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgb(146, 146, 146);
+    font-family: 'Quicksand', sans-serif;
+}
+
+section {
+    padding-bottom: 2%;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: 0.5rem;
+}
+
+
+/* About Me */
+
+#aboutMe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    justify-content: flex-start;
+}
+
+.headshot {
+    justify-content: flex-end;
+}
+
+.headshot img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+/* Education */
+
+#education {
+    line-height: 0.4rem;
+}
+
+.degree {
+    font-size: 1.2rem;
+}
+
+.institution {
+    font-size: 1rem;
+}
+
+.year {
+    font-size: 0.8rem;
+}
+
+
+/* Projects */
+
+#project {
+    width: 50%;
+    font-size: 1.7rem;
+}
+
+#message {
+    cursor: pointer;
+}
+
+
+/* Skills */
+
+#skills {
+    width: 50%;
+}
+
+.skills ul {
+    display: grid;
+}
