@@ -5,7 +5,12 @@ body {
     margin: 0 auto;
     background-color: rgb(146, 146, 146);
     font-family: 'Quicksand', sans-serif;
-    margin-left: 1%;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        padding-left: 2%;
+    }
 }
 
 section {
